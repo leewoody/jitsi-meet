@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#import "RCTBridgeModule.h"
+#import "React/RCTBridgeModule.h"
 
 #import "JitsiMeetView+Private.h"
 

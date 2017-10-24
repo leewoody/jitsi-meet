@@ -9,6 +9,9 @@ ReducerRegistry.register('features/app', (state = {}, action) => {
     case APP_WILL_MOUNT: {
         const { app } = action;
 
+        // $FlowDisableNextLine
+        console.disableYellowBox = true;
+
         if (state.app !== app) {
             return {
                 ...state,

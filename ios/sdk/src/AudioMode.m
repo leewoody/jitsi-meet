@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#import "RCTBridgeModule.h"
-#import "RCTLog.h"
+#import "React/RCTBridgeModule.h"
+#import "React/RCTLog.h"
 
 #import <AVFoundation/AVFoundation.h>
 
