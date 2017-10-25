@@ -8,6 +8,7 @@ target 'JitsiMeet' do
   pod 'React', :path => '../node_modules/react-native', :subspecs => [
     'Core',
     'BatchedBridge',
+    'DevSupport',
     'RCTActionSheet',
     'RCTAnimation',
     'RCTImage',
